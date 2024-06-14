@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.app.HomeFragment"
+        android:name="com.example.gsmobile.ui.home.HomeFragment"
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_homeFragment_to_detailFragment"
@@ -14,6 +14,6 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.app.DetailFragment"
+        android:name="com.example.gsmobile.ui.detail.DetailFragment"
         tools:layout="@layout/fragment_detail" />
 </navigation>

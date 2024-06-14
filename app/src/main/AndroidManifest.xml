@@ -18,9 +18,17 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="some.action.to.remove"
+                    tools:ignore="UnusedAttribute"/>
             </intent-filter>
+
+            <fragment
+                android:name="com.example.gsmobile.ui.home.HomeFragment"
+                android:label="HomeFragment"
+                tools:layout="@layout/fragment_home"
+                tools:ignore="UnusedAttribute"/>
+
         </activity>
     </application>
 
